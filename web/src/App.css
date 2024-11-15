@@ -1,0 +1,100 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1528938102132-4a9276b8e320?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat;  
+  background-attachment: fixed;           
+  margin: 0; 
+  height:100%                
+}
+
+.error{
+  color:red
+}
+
+/* CSS for centering the card */
+.center-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;         /* Full viewport height */
+}
+
+.cardDimension {
+  width: 100%;             /* Make the card responsive */
+  max-width: 23rem;        /* Set max-width of the card */
+  margin: 0 auto;
+  margin-top:10rem;
+  box-shadow: 0px 0px 10px 3px ; 
+  border:none;
+  background-image: url("https://images.unsplash.com/photo-1528938102132-4a9276b8e320?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");         /* Horizontally center the card */
+}
+
+.textArea {
+  width: 100%;             /* Make the textarea responsive */           /* Set a fixed height for the textarea */
+  resize: vertical;        /* Allow vertical resizing */
+}
+
+@media (max-width: 768px) {
+  .cardDimension {
+      width: 90%;          /* Card width is 90% on small screens */
+  }
+
+  .textArea {
+      height: 140px;       /* Adjust textarea height for small screens */
+  }
+}
+.titleText{
+  width:100%
+}
+.trashIcon{
+  color:red;
+float :right
+}
+.editIcon{
+  color:blue;
+  float:right;
+  margin-right: 10px;
+}
+.notebook{
+  margin-right: 10px;
+}
+.listCard{
+  box-shadow: 0px 1px 8px 0px;
+  background-image: url("https://images.unsplash.com/photo-1569690484582-58b478f46805?q=80&w=1190&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  color:black;
+  font-weight: 700;
+  
+
+}
+.listContainer{
+  margin-top: 80px;
+}
+.cardbtn{
+  background-image: url("https://images.unsplash.com/photo-1528938102132-4a9276b8e320?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+border: none;
+color:black;
+font-size: 16px;
+font-weight: 500;
+}
+.cardbtn:hover{
+ border:2px solid black
+}
+.fieldText::placeholder{
+  font-size: 17px;
+  color: black;
+}
+.fieldText{
+  color: #DF70D3;
+  font-size: 18px;
+ 
+}
+.nav{
+  background-image: url("https://images.unsplash.com/photo-1605693858949-edcc8ba48c88?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  color:black;
+  font-weight: 400;
+}
+.secondNav{
+  background-image: url("https://images.unsplash.com/photo-1605693858949-edcc8ba48c88?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height:50px;
+}
